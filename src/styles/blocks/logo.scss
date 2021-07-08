@@ -1,0 +1,16 @@
+.logo { 
+    margin-bottom: 48px;
+    font-size: 40px;
+    line-height: 49px;
+    color: #ffffff;
+
+    @media (max-width: $tabletBreakPoint) {
+      font-size: 30px;
+    line-height: 35px;
+    }
+  
+    @media (max-width: $mobileBreakPoint) {
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }

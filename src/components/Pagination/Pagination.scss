@@ -1,0 +1,44 @@
+.pagination {
+  text-align: center;
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    display: inline-block;
+    padding: 14px 16px;
+    margin-right: 8px;
+    border: 2px solid #f1f1f1;
+    border-radius: 8px;
+    background-color: #ffffff;
+    // // box-sizing: border-box;
+    //
+    
+  }
+
+  &__link {
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+   
+    
+  }
+
+  .active {
+    background-color: #3a80ba;
+    border-radius: 8px;
+    
+    & > button {
+      background-color: #3a80ba;
+      color: #ffffff;
+    }
+  }
+
+  .disabled {
+    display: none;
+  }
+}

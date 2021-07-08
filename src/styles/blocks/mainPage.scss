@@ -1,0 +1,157 @@
+.main-header {
+  height: 100vh;
+  background: top / cover no-repeat url(../../pictures/head.png);
+
+  &__title {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #ffffff;
+  }
+
+  &__text {
+    margin-bottom: 32px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.button {
+  width: 154px;
+  height: 56px;
+  background: #ffffff;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #3a80ba;
+}
+
+.phone {
+  &__wrapper {
+    position: relative;
+  }
+
+  &__shadow {
+    position: absolute;
+    z-index: 0;
+    bottom: -5%;
+    right: -15%;
+  }
+}
+
+.main {
+  &__title {
+    margin-bottom: 24px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #1a1a1a;
+  }
+  &__text {
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #7e7e7e;
+  }
+  &__benefits {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+.benefit {
+  margin-bottom: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 32px;
+
+  &__picture {
+    padding: 48px 0 40px;
+  }
+
+  &__text {
+    padding: 0 30px 48px;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #7e7e7e;
+  }
+}
+
+.main-footer {
+  background: bottom / cover no-repeat url(../../pictures/footer.svg);
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 29vh;
+  }
+
+  &__form {
+    display: flex;
+    position: relative;
+    align-self: center;
+    top: 25%;
+    width: 580px;
+    background: #ffffff;
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  &__input {
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 15px;
+    outline: none;
+    
+    &::placeholder {
+      font-size: 16px;
+      line-height: 162%;
+    }
+  }
+
+  &__button {
+    width: 176px;
+    height: 56px;
+    margin: 4px;
+    background: #3a80ba;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  &__copyright {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+  }
+
+  &__copyright {
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+}
