@@ -22,8 +22,8 @@ export const MainPage = () => (
           </div>
           <div className='phone'>
             <div className='phone__wrapper'>
-              <img className='phone__picture' src="./tt__appco/iphone.svg" alt="iphone" />
-              <img className='phone__shadow' src="./tt__appco/shadow.svg" alt="iphone" />
+              <img className='phone__picture' src="https://SerhiiKolesnyk.github.io/tt__appco/iphone.svg" alt="iphone" />
+              <img className='phone__shadow' src="https://SerhiiKolesnyk.github.io/tt__appco/shadow.svg" alt="iphone" />
             </div>
           </div>
         </section>
@@ -41,7 +41,7 @@ export const MainPage = () => (
 
         <div className='main__benefits'>
           <div className='benefit'>
-            <img className='benefit__picture' src="./tt__appco/firstCollage.png" alt="collage" />
+            <img className='benefit__picture' src="https://SerhiiKolesnyk.github.io/tt__appco/firstCollage.png" alt="collage" />
             <h3 className='benefit__title'>
               Clean Design
             </h3>
@@ -50,7 +50,7 @@ export const MainPage = () => (
             </p>
           </div>
           <div className='benefit'>
-            <img className='benefit__picture' src="./tt__appco/thirdCollage.png" alt="collage" />
+            <img className='benefit__picture' src="https://SerhiiKolesnyk.github.io/tt__appco/thirdCollage.png" alt="collage" />
             <h3 className='benefit__title'>
               Secure Data
             </h3>
@@ -59,7 +59,7 @@ export const MainPage = () => (
             </p>
           </div>
           <div className='benefit'>
-            <img className='benefit__picture' src="./tt__appco/secondCollage.png" alt="collage" />
+            <img className='benefit__picture' src="https://SerhiiKolesnyk.github.io/tt__appco/secondCollage.png" alt="collage" />
             <h3 className='benefit__title'>
               Retina Ready
             </h3>
